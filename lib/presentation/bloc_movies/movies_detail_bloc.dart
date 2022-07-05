@@ -1,6 +1,5 @@
 import 'package:bloc/bloc.dart';
 import 'package:equatable/equatable.dart';
-import 'package:meta/meta.dart';
 import 'package:ditonton/domain/usecases/get_movie_detail.dart';
 import '../../domain/entities/movie_detail.dart';
 part 'movies_detail_event.dart';
