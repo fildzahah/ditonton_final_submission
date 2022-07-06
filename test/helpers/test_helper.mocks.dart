@@ -287,7 +287,7 @@ class MockTvSeriesRepository extends _i1.Mock
       Future<_i2.Either<_i8.Failure, List<_i19.TvSeries>>>.value(
           _FakeEither_0<_i8.Failure, List<_i19.TvSeries>>()))
   as _i7.Future<_i2.Either<_i8.Failure, List<_i19.TvSeries>>>);
-  _i7.Future<_i2.Either<_i8.Failure, _i20.SeriesTvDetail>> getSeriesTvDetail(
+  _i7.Future<_i2.Either<_i8.Failure, _i20.SeriesTvDetail>> getTvSeriesDetail(
       int? id) =>
       (super.noSuchMethod(Invocation.method(#getTvSeriesDetail, [id]),
           returnValue:
